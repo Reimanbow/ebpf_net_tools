@@ -1,0 +1,14 @@
+# Compiled eBPF object file
+*.bpf.o
+
+# OS-generated files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# IDE / Editor specific files
+.vscode/
+.idea/
+*.swp
