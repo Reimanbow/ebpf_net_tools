@@ -1,6 +1,6 @@
 module github.com/Reimanbow/ebpf_net_tools/random_packetloss
 
-go 1.23.5
+go 1.23
 
 require github.com/cilium/ebpf v0.13.0
 
