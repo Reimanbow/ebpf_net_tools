@@ -12,7 +12,7 @@
 
 ```shell
 sudo apt update
-sudo apt install -y golang-go clang llvm linux-headers-$(uname -r)
+sudo apt install -y golang-go clang llvm linux-headers-$(uname -r) libbpf-dev
 ```
 
 ### ビルド (Build)
@@ -30,5 +30,5 @@ $ sudo go run main.go -iface <network-interface> -rate <rate>
 
 例: 30%の確率でパケットを破棄するプログラムをwlp1s0にアタッチする
 ```shell
-$ sudo go run main.go -iface <network-interface> -rate 30
+$ sudo go run main.go -iface wlp1s0 -rate 30
 ```
